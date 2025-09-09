@@ -1,0 +1,7 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto; /* 메인 콘텐츠가 짧아도 푸터가 아래로 내려가도록 */
+}

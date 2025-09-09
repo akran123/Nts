@@ -1,0 +1,110 @@
+.modal-backdrop2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.signin-modal {
+  position: relative;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  min-width: 280px;
+  min-height: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+}
+
+.signin-info {
+  display: flex;
+  justify-content: center;
+}
+
+.close-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.close-button button {
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.close-button button:hover {
+  background-color: #c4c4c4;
+}
+
+.form-group2 {
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.form-group2 h4 {
+  margin: 0 auto;
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 2%;
+}
+
+.form-group2 input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 auto; 
+}
+
+.buttons {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.buttons button {
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  justify-content: center;
+}
+
+.switch-link {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 14px;
+}
+
+.switch-link span {
+  color: #000;
+}
+
+.switch-link button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  padding: 0;
+}

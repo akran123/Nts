@@ -1,0 +1,119 @@
+.modal-backdrop1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.login-modal {
+  position: relative;
+  background: #ffffff;
+  padding: 5rem 2.5rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.login-info {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.close-button {
+  position: absolute;
+  background-color: #6b6a6a;
+  border-radius: 6px;
+  top: 10px;
+  right: 12px;
+  justify-content: center;
+}
+
+.close-button button {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: #525151;
+  cursor: pointer;
+}
+
+.form-group1 {
+  margin-bottom: 1.2rem;
+}
+
+.form-group1 h5 {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.form-group1 input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+.form-group1 input:focus {
+  border-color: #9891ff;
+  outline: none;
+}
+
+.buttons1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.buttons1 button {
+  background-color: #9891ff;
+  border: none;
+  color: #fff;
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.buttons1 button:hover {
+  background-color: #7a72e6;
+}
+
+.switch-link {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.switch-link span {
+  color: #333;
+}
+
+.switch-link button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  padding: 0;
+}
