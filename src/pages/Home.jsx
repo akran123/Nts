@@ -1,7 +1,5 @@
-import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import StudentTaskTable from '../components/TaskTable'; // ✅ 추가
 import './Home.css';
 
 function Home() {

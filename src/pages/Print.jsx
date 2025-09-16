@@ -1,17 +1,12 @@
-import React from 'react';
+
+import PrintForm from "../components/PrintForm"; // 경로 확인 필요
+import "../App.css"; // .print_box, .print_container 정의된 css
 
 function Print() {
   return (
-    <div className='print_box'>
-      <h1>프린트 페이지</h1>
-      <b></b>
-      
-
-    </div>
-    
-
-
-
+  
+    <PrintForm />
+  
   );
 }
 
